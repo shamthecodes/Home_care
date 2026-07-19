@@ -20,9 +20,9 @@ const caregivers = [
     image: "/Caregiver2.png",
   },
   {
-    name: "Mr Srinivasa",
+    name: "Mrs Ayesha",
     role: "Elderly Care Nursing",
-    image: "/caregiver3.png", // Change to .png if your file is caregiver3.png
+    image: "/caregiver.png", // Change to .png if your file is caregiver3.png
   },
 ];
 
