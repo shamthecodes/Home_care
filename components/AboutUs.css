@@ -1,0 +1,100 @@
+.about-section {
+  padding: 4rem 1.5rem;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.about-header {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-tag {
+  color: #0d4d4d;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin: 12px 0;
+  color: #0a2e2e;
+}
+
+.about-mission {
+  color: #4a7070;
+  line-height: 1.8;
+}
+
+.about-caregivers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.caregiver-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.caregiver-card:hover {
+  transform: translateY(-6px);
+}
+
+.caregiver-photo {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #d8ecec;
+  background: #fff;
+}
+
+.caregiver-img {
+  object-fit: cover;
+}
+
+.caregiver-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0a2e2e;
+  margin-bottom: 8px;
+}
+
+.caregiver-role {
+  color: #4a7070;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.about-certs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border-radius: 999px;
+  padding: 12px 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.cert-icon {
+  color: #0d4d4d;
+}

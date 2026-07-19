@@ -1,0 +1,139 @@
+.how-section {
+  padding: 4rem 1.5rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.how-header {
+  text-align: center;
+  max-width: 32rem;
+  margin: 0 auto 3rem;
+}
+
+.how-tag {
+  display: inline-block;
+  color: #0d4d4d;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.how-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0a2e2e;
+}
+
+@media (min-width: 768px) {
+  .how-title {
+    font-size: 2.1rem;
+  }
+}
+
+/* Steps */
+.how-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .how-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .how-steps {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.how-step {
+  text-align: center;
+  position: relative;
+}
+
+.how-step-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.how-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 999px;
+  background: #0d4d4d;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  z-index: 2;
+}
+
+.how-connector {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 1.5rem);
+  right: calc(-50% + 1.5rem);
+  height: 2px;
+  border-top: 2px dashed #d1d5db;
+  z-index: 1;
+}
+
+@media (max-width: 1023px) {
+  .how-connector {
+    display: none;
+  }
+}
+
+.how-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 999px;
+  background: #e8f0f0;
+  margin: 0 auto 1rem;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.how-step:hover .how-icon-circle {
+  background: #0d4d4d;
+  transform: scale(1.08);
+}
+
+.how-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #0d4d4d;
+  transition: color 0.25s ease;
+}
+
+.how-step:hover .how-icon {
+  color: white;
+}
+
+.how-step-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0a2e2e;
+  margin-bottom: 0.4rem;
+}
+
+.how-step-desc {
+  font-size: 0.85rem;
+  color: #4a7070;
+  line-height: 1.5;
+}
