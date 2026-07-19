@@ -85,7 +85,7 @@ export default function Contact() {
 
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/918951214832?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20home%20care%20services"
+            href="https://wa.me/919380050238?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20home%20care%20services"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 w-full max-w-md"
