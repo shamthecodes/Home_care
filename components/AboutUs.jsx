@@ -17,7 +17,7 @@ const caregivers = [
   {
     name: "Mr Beeresh",
     role: "Nursing",
-    image: "/Caregiver2.png",
+    image: "/carebeer.png",
   },
   {
     name: "Mrs Ayesha",
