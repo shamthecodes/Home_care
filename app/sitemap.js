@@ -1,13 +1,13 @@
 export default function sitemap() {
   return [
     {
-      url: "https://yourdomain.vercel.app",
+      url: "https://home-care-rouge-kappa.vercel.app",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: "https://yourdomain.vercel.app/book",
+      url: "https://home-care-rouge-kappa.vercel.app",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

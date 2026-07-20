@@ -33,7 +33,7 @@ export const metadata = {
     title: "Home Care Services in Vijayanagar Bengaluru",
     description:
       "Professional home care — Injections, BP/Sugar Tests, Catheterization, Cupping Therapy, Ladies Health Care. Available 24/7 in Bengaluru.",
-    url: "https://yourdomain.vercel.app",
+    url: "https://home-care-rouge-kappa.vercel.app",
     siteName: "HealthCare Home Services",
     locale: "en_IN",
     type: "website",

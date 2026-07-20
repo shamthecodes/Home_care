@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yourdomain.vercel.app/sitemap.xml",
+    sitemap: "https://home-care-rouge-kappa.vercel.app/sitemap.xml",
   };
 }
