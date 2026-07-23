@@ -16,11 +16,11 @@ const services = [
     title: "Injection IV",
     desc: "Intravenous injections safely administered at home.",
   },
-  {
-    icon: Syringe,
-    title: "Injection IM & SK",
-    desc: "Intramuscular and subcutaneous injections at home.",
-  },
+  // {
+  //   icon: Syringe,
+  //   title: "Injection IM & SK",
+  //   desc: "Intramuscular and subcutaneous injections at home.",
+  // },
   {
     icon: Activity,
     title: "Blood Tests",
